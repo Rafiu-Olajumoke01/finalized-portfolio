@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.banner img {
+    width: 80px;
+    height: auto;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media (max-width: 990px) {
+    .banner {
+        display: grid;
+        grid-template-columns: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .banner img{
+        width: 100px;
+        height: auto;
+    }
+
+}
