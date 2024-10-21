@@ -20,7 +20,16 @@
 .banner a {
     text-decoration: none;
     color: #fff;
+    transition: .7s;
 }
+
+.banner a:hover {
+    transform: scale(1.2);
+    background-color: rgba(85, 83, 83, 0.404);
+    border-radius: 15px;
+    padding: 10px;
+}
+
 
 
 @media (max-width: 990px) {
