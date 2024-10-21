@@ -76,7 +76,7 @@ function Contact() {
               </div>
 
               <div className="github">
-                <Link to="https://www.github/Rafiu Olajumoke01"><FaGithub size={30} />
+                <Link to="https://github.com/Rafiu-Olajumoke01"><FaGithub size={30} />
                   <span className='fw-bold ms-3'>Github</span>
                 </Link>
               </div>
