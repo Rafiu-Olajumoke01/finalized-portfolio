@@ -52,6 +52,10 @@ function Navbar() {
             </Link>
           </div>
         </div>
+
+        <div className="fontLine">
+          
+        </div>
       </div>
     </div>
   )
