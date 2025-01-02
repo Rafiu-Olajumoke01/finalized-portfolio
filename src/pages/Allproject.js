@@ -26,7 +26,7 @@ function Allproject() {
                       <p>Cloning Jumia, a modern e-commerce platform built using React and Redux for
                         seamless state management! Our Jumia clone offers a smooth shopping experience,
                         allowing users to browse products, and complete transactions effortlessly.</p>
-                      <Link to="/jumia-clone">Check Out</Link>
+                      <Link to="https://jumiaecommerce-l35n.vercel.app/">Check Out</Link>
                     </div>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ function Allproject() {
                       <p>Welcome to Shoe Haven, your ultimate destination for stylish and comfortable footwear!
                         Whether you're looking for trendy sneakers we offer a wide range of shoes to suit every occasion and lifestyle.!
                         </p>
-                        <Link to="/myshoeproject">Check Out</Link>
+                        <Link to="https://shoe-h-aven-3q64.vercel.app/">Check Out</Link>
                     </div>
                   </div>
                 </div>

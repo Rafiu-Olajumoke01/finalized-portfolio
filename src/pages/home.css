@@ -10,12 +10,12 @@
 .banner {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
-    gap: 60px;
+    gap: 70px;
     flex-wrap: wrap;
 }
 
 .banner img {
-    width: 80px;
+    width: 70px;
     height: auto;
 }
 
