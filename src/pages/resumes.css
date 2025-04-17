@@ -1,34 +1,28 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family:sans-serif;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: black;
-    color: #fff;
-}
-
-.cv a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.btn{
-    display: inline-block;
-    padding: 11px 26px;
-    background: #13bbff;
-    border: 2px solid ;
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    transition: all .50s ease;
-}
-
-.btn:hover{
-    background: transparent;
+.resume-container {
+    padding: 20px;
+  }
+  
+  .cv-img {
+    border: 1px solid #444;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
+  .cv-btn {
+    background-color: #3498db;
     color: white;
-    box-shadow: white;
-}
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .cv-btn:hover {
+    background-color: #2e86c1;
+    color: #fff;
+  }
+  

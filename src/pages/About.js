@@ -47,7 +47,7 @@ function About() {
           </div>
 
           <div className="col-md-4 mt-3 myself">
-            <img src={require("./../port image/jummy.jfif")} alt="Rafiu Olajumoke" className='img-fluid rounded shadow' />
+            <img src={require("./../port image/Olajumoke birthday.jpg")} alt="Rafiu Olajumoke" className='img-fluid rounded shadow' />
           </div>
         </div>
       </div>
