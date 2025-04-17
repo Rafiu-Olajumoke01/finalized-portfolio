@@ -14,88 +14,82 @@ function Allproject() {
             <Navbar />
           </div>
 
-          <div className="col-md-10 ">
+          <div className="col-md-10">
             <div className="container">
               <div className="row allpro">
 
-                <div className="col-md-4 mt-3">
+                {/* Jumia Clone */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require("./../port image/JumiaCloning Image.jpg")} alt="Title" />
+                    <img className="card-img-top" src={require("./../port image/JumiaCloning Image.jpg")} alt="Jumia Clone" />
                     <div className="card-body">
                       <h6 className="card-title">Jumia Clone Website</h6>
-                      <p>Cloning Jumia, a modern e-commerce platform built using React and Redux for
-                        seamless state management! Our Jumia clone offers a smooth shopping experience,
-                        allowing users to browse products, and complete transactions effortlessly.</p>
-                      <Link to="https://jumiaecommerce-l35n.vercel.app/">Link Here</Link>
+                      <p>Cloning Jumia, a modern e-commerce platform built using React and Redux for seamless state management!</p>
+                      <a href="https://jumiaecommerce-l35n.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-md-4 mt-3">
+                {/* Novakhay Brand */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require('./../port image/novakhay.jpg')} alt="Title" />
+                    <img className="card-img-top" src={require('./../port image/novakhay.jpg')} alt="Novakhay Brand" />
                     <div className="card-body">
                       <h6 className="card-title">Novakhay Brand</h6>
-                      <p>Novakhay Brand, your ultimate destination for stylish and sophisticated outfits.
-                        We are excited to introduce our brand new collection, carefully curated to make you look and feel amazing
-                      </p>
-                      <Link to="https://kelechi-bay.vercel.app/">Link Here</Link>
+                      <p>Novakhay Brand, your ultimate destination for stylish and sophisticated outfits.</p>
+                      <a href="https://kelechi-bay.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-md-4 mt-3">
+                {/* Nomoarh Project */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require('./../port image/nomoarhimage.jpg')} alt="Title" />
+                    <img className="card-img-top" src={require('./../port image/nomoarhimage.jpg')} alt="Nomoarh Project" />
                     <div className="card-body">
-                      <h6 className="card-title">Nomoarh Design Project(Saudi Arabia)</h6>
-                      <p>Designed a visually appealing and user-friendly interface using html and css, meeting
-                        Nomoarh;s design requirements and expectations
-                      </p>
-                      <Link to="https://testing.nomoarhosting.cloud">Link Here</Link>
+                      <h6 className="card-title">Nomoarh Design Project (Saudi Arabia)</h6>
+                      <p>Designed a visually appealing and user-friendly interface using HTML and CSS.</p>
+                      <a href="https://testing.nomoarhosting.cloud" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                   </div>
                 </div>
 
-
-                <div className="col-md-4 mt-3">
+                {/* Shoe Haven */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require("./../port image/myshoeproject.jpg")} alt="Title" />
+                    <img className="card-img-top" src={require("./../port image/myshoeproject.jpg")} alt="Shoe Haven" />
                     <div className="card-body">
                       <h6 className="card-title">My Personal Shoe Website</h6>
-                      <p>Welcome to Shoe Haven, your ultimate destination for stylish and comfortable footwear!
-                        Whether you're looking for trendy sneakers we offer a wide range of shoes to suit every occasion and lifestyle.!
-                      </p>
-                      <Link to="https://shoe-h-aven-3q64.vercel.app/">Link Here</Link>
+                      <p>Welcome to Shoe Haven — stylish and comfortable footwear for every occasion.</p>
+                      <a href="https://shoe-h-aven-3q64.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-md-4 mt-4">
+                {/* Blog Website */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require("./../port image/whatfoodblog.jpg")} alt="Title" />
+                    <img className="card-img-top" src={require("./../port image/whatfoodblog.jpg")} alt="Food & Travel Blog" />
                     <div className="card-body">
                       <h6 className="card-title">Multipurpose Blog</h6>
-                      <p className="card-text">Welcome to Food&Faraway, your go-to destination for all things
-                        food and travel! Whether you're a foodie searching for delicious recipes, the best places to eat,
-                        or an adventurer eager to explore new destinations, we’ve got you covered!</p>
-                      <Link to="https://f-f-client.vercel.app/">Link Here</Link>
+                      <p>Food & Faraway – your go-to for delicious recipes and travel adventures.</p>
+                      <a href="https://f-f-client.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                   </div>
-
                 </div>
 
-                <div className="col-md-4 mt-4">
+                {/* Portfolio Project */}
+                <div className="col-md-4">
                   <div className="card">
-                    <img className="card-img-top" src={require("./../port image/myprojectimage.jpg")} alt="Title" />
+                    <img className="card-img-top" src={require("./../port image/myprojectimage.jpg")} alt="My Portfolio" />
                     <div className="card-body">
                       <h6 className="card-title">My Portfolio Project</h6>
-                      <p className="card-text">Checkout for link here</p>
-                      <Link to="/myproject">Link Here</Link>
+                      <p>A full showcase of my personal projects and MERN Stack journey.</p>
+                      <Link to="/myproject">View Project</Link>
                     </div>
                   </div>
-
                 </div>
+
               </div>
             </div>
           </div>

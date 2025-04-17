@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Background from '../components/Background'
 import Navbar from '../components/Navbar'
-import "./home.css"
+import './home.css'
 
 function Home() {
+  const [darkMode, setDarkMode] = useState(true)
+
   return (
-    <div>
+    <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Background />
+      <button className="theme-toggle-btn" onClick={() => setDarkMode(!darkMode)}>
+        {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+      </button>
+
       <div className="container-fluid">
         <div className="row banner_grandparent">
           <div className="col-md-2">
             <Navbar />
           </div>
-
 
           <div className="col-md-10 banner mt-3">
             <Link className='d-flex align-items-center' to="/about">
